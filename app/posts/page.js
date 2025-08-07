@@ -10,7 +10,7 @@ const fetchData = async () => {
 
 const Posts = async () => {
   const posts = await fetchData();
-  
+         
   console.log(posts);
 
   return (
