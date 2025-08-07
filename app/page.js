@@ -1,16 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Navbar from "@/components/Navbar";
+
 
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <ul>
-      <li>List Item</li>
-      <li>List Item</li>
-      <li>List Item</li>
-    </ul>
+    <h1>Weclome to the Home Page!</h1>
+
     </>
   );
 }
